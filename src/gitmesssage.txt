@@ -1,0 +1,24 @@
+[Scope] Short summary of change
+
+Detailed description (optional):
+- What was added/changed/fixed
+- Why it matters (impact, recruiter-facing clarity)
+- Any notes for reproducibility or onboarding
+
+Scopes (choose one):
+- [Recon]     → subdomain_scanner, dir_bruteforce, port_scan
+- [Fuzzing]   → xss_fuzzer, sqli_fuzzer, idor_checker
+- [ML]        → anomaly_detector, clustering, autoencoder
+- [Reporting] → report_generator, evidence_collector
+- [Panel]     → recon_panel, fuzzing_panel, ml_panel, report_panel
+- [Docs]      → README, onboarding guides, configs
+- [Config]    → requirements.txt, .vscode, environment setup
+
+Examples:
+- [Recon] Added socket timeout handling in port_scan.py
+- [Fuzzing] Extended payload list in xss_fuzzer.py
+- [ML] Integrated autoencoder anomaly scoring into anomaly_detector.py
+- [Panel] Added anomaly visualizer to ml_panel.py
+- [Reporting] Enhanced PDF export in report_generator.py
+- [Docs] Updated README with cockpit panel screenshots
+- [Config] Pinned scikit-learn version in requirements.txt
