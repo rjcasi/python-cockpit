@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Cockpit",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py"
+    }
+  ]
+}
