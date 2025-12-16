@@ -1,0 +1,23 @@
+{
+  // Python interpreter path (use your venv)
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+
+  // Linting and formatting
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+
+  // Auto‑import and IntelliSense
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+
+  // Jupyter / notebooks (if you demo ML panels interactively)
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+
+  // Terminal defaults
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  // Git commit template integration
+  "git.commitTemplatePath": "${workspaceFolder}/.gitmessage.txt"
+}
