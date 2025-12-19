@@ -142,3 +142,33 @@ websocket-client==1.9.0
 websockets==15.0.1
 widgetsnbextension==4.0.15
 yarl==1.22.0
+
+beautifulsoup4==4.14.3
+requests==2.32.5
+httpx==0.28.1
+
+# Networking / cyber demos
+scapy==2.6.1
+websocket-client==1.9.0
+websockets==15.0.1
+
+# Data science + math
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+
+# Blockchain / crypto demos
+web3==7.14.0
+eth-account==0.13.7
+
+# Web frameworks (for dashboards / APIs)
+flask==3.0.3
+fastapi==0.115.0
+uvicorn==0.32.0
+
+# Utilities
+PyYAML==6.0.3
+psutil==7.1.3
+

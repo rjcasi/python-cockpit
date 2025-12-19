@@ -2,6 +2,14 @@
 
 Welcome to the **Python Cockpit**, a modular collection of demos showcasing skills in physics simulation, data scraping, and networking. Each demo is plug‑and‑play, automatically detected and launched via `src/main.py`.
 
+## Setup
+git clone https://github.com/rjcasi/python-cockpit.git
+cd python-cockpit
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+
 ---
 
 ## 🚀 How to Run

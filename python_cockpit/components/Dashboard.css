@@ -1,0 +1,13 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.panel {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+}
